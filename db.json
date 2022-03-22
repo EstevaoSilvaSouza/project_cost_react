@@ -1,29 +1,63 @@
 {
   "projects": [
     {
-      "name": "1",
-      "budget": "12",
-      "cost": 0,
-      "services": [],
+      "name": "Criação APP",
+      "budget": "1200",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 310,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "120",
+          "descricao": "tt",
+          "id": "9a0bf08e-5c72-4e69-abd4-3556a5422dc7"
+        },
+        {
+          "name": "novo",
+          "cost": "100",
+          "descricao": "jjj",
+          "id": "be339395-56b9-4a1a-a33b-b07d00089a27"
+        },
+        {
+          "name": "o meu filho",
+          "cost": "100",
+          "descricao": "oioi",
+          "id": "d2386883-4b09-4dd1-b40f-0fec48920468"
+        },
+        {
+          "name": "kjhkjh",
+          "cost": "-55",
+          "descricao": "jhgjhg",
+          "id": "dcbef082-2293-40b5-bb3d-59d4a784a05b"
+        },
+        {
+          "name": "kjhkjh",
+          "cost": "-55",
+          "descricao": "jhgjhg",
+          "id": "dcbef082-2293-40b5-bb3d-59d4a784a05b"
+        },
+        {
+          "name": "teste",
+          "cost": "100",
+          "descricao": "ok",
+          "id": "36fbadb4-d539-4e42-b240-1902c938697b"
+        }
+      ],
       "id": 1
     },
     {
-      "name": "estevao",
-      "budget": "120",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "testeee",
-      "budget": "50000",
+      "name": "ws API Builder",
+      "budget": "19000",
       "category": {
-        "id": "5",
-        "name": "Segurança"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 2
     }
   ],
   "categories": [

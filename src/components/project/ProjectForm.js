@@ -3,6 +3,7 @@ import Input from '../form/Input'
 import Select from '../form/Select'
 import Submit from '../form/Submit'
 
+
 import { useState, useEffect } from 'react'
 
 function ProjectForm({ handleSubmit, text, projectData }) {
@@ -25,7 +26,7 @@ function ProjectForm({ handleSubmit, text, projectData }) {
     const submit = (e) => {
         e.preventDefault()
         handleSubmit(project)
-        //console.log(project)
+
     }
 
     function handleChange(e) {
@@ -37,7 +38,7 @@ function ProjectForm({ handleSubmit, text, projectData }) {
             ...project, category: {
                 id: e.target.value,
                 name: e.target.options[e.target.selectedIndex].text,
-            }
+            },
         })
 
 

@@ -21,7 +21,7 @@ function NewProject() {
             .then(res => res.json())
             .then(data => {
                 console.log(data)
-                history('/projects', { message: 'projecto criado com sucesso' })
+                history('/projects', { state: { message: 'projecto criado com sucesso' } })
             })
 
             //redirect
